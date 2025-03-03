@@ -7,11 +7,11 @@ variable: id1=0
 Content-Disposition: form-data; name="record"; filename="blob"\r
 Content-Type: application/json\r
 \r
-{"mappingId":"{{id1}}","mappingType": "{{mappingType}}","title":"TF from CI test","description":"","acl":[]}\r
+{"id":"{{id1}}"}\r
 --boundary\r
 Content-Disposition: form-data; name="document"; filename="blob"\r
 Content-Type: application/json\r
  
-{"PrivateFei.TimeOfCreation":"entry.endTime"}\r
+{"some":"json"}\r
 --boundary--\r
 ```

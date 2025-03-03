@@ -1,4 +1,4 @@
-POST {{host}}/post
+POST {{host}}
 Content-Type: multipart/form-data; boundary=boundary
 [Options] #set all variables you need for further use in this hurl script
 variable: id1=0

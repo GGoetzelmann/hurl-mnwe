@@ -44,8 +44,7 @@ jobs:
          sudo dpkg -i hurl_6.0.0_amd64.deb
          hurl --variable host=https://httpbin.org/post --very-verbose --test multistring-formrequest.hurl
 
-
-    request-mappingservice:
+  request-mappingservice:
     runs-on: ubuntu-latest
 
     steps:
